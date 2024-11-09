@@ -1,40 +1,5 @@
-'''def greet():
-    print("hello")
-name=input()
-print(name)
-greet()
-
-def greet(word):
-    msg="hello"+word
-    print(msg)
-name=input()
-g=greet(word=name)
-a=int(input())
-factorial = 1
-for i in range(1,a+1):
-  factorial*= i
-  print(factorial)
-def factorial(n):
-  if n==1:
-    return 1
-  return n*factorial(n-1)
-num=int(input())
-res=factorial(num)
-print(res)
-class animal:
-    def sound(self):
-        pass
-class dog(animal):
-    def sound(self):
-        return "woof!woof"
-class cats(animal):
-    def sound(self):
-        return "meow"
-d=dog()
-c=cats()
-print(d.sound())
-print(c.sound()) 
 #python project###
+##Guessing random number game ##
 import random
 def guess_the_number():
     # Generate a random number between 1 and 100
@@ -66,26 +31,4 @@ def guess_the_number():
 
 # Run the game
 guess_the_number()
-###############################################
 
-n=int(input())
-sum=0
-for i in range(1,n+1):
-  sum=sum+(i**2)
-print(sum)
-rows=int(input())
-columns=int(input())
-for i in range(1,rows+1):
-    print(columns*"*")
-n=input()
-num=''
-for i in n:
-    num=num+(i+"   ")
-print(num)'''
-n=int(input())
-sum=0
-for i in range(1,n+1):
-    a=int(input())
-    sum=sum+i
-average=sum/n 
-print(average)
